@@ -448,5 +448,95 @@
   "text": "Suutei tsai is a traditional Mongolian milk tea made with green tea, milk, water, and salt.",
   "region": "Mongolia",
   "type": "Beverage"
+},
+{
+  "id": "76",
+  "text": "Pizza is a flatbread topped with tomato sauce, cheese, and various toppings, baked in an oven.",
+  "region": "Italy",
+  "type": "Main Course"
+},
+{
+  "id": "77",
+  "text": "Banh xeo is a Vietnamese savory crepe made with rice flour, coconut milk, and turmeric, filled with shrimp, pork, and bean sprouts.",
+  "region": "Vietnam",
+  "type": "Main Course"
+},
+{
+  "id": "78",
+  "text": "Bun Cha is a famous Northern Vietnamese dish consisting of grilled pork patties and slices served with rice vermicelli, fresh herbs, and dipping fish sauce. The pork is marinated in garlic, shallots, and fish sauce before being grilled over charcoal. Popular street food often eaten for lunch in Hanoi, it's rich in protein and moderate fats, with herbs adding vitamins A and C.",
+  "region": "Hanoi, Vietnam",
+  "type": "Main Course"
+},
+{
+  "id": "79",
+  "text": "Goi Cuon, or Vietnamese fresh spring rolls, are translucent rice paper rolls filled with shrimp, pork, vermicelli noodles, and herbs. They are served with a peanut dipping sauce. The rolls are light, fresh, and perfect for warm climates. Often served at family gatherings and festive meals, they are low in calories, high in protein, fiber, and vitamin A.",
+  "region": "Southern Vietnam",
+  "type": "Appetizer"
+},
+{
+  "id": "80",
+  "text": "Com Tam means 'broken rice,' a dish made from fractured rice grains. It's served with grilled pork chop, fried egg, and pickled vegetables. The caramelized fish sauce enhances the flavor and aroma. A symbol of Saigon street food culture, it provides a good balance of carbohydrates, protein, and fats.",
+  "region": "Southern Vietnam",
+  "type": "Main Course"
+},
+{
+  "id": "81",
+  "text": "Pho Chay is a vegetarian version of Vietnam's iconic noodle soup. The broth is made from simmered daikon, carrots, onions, and mushrooms, giving a deep umami flavor. It's served with rice noodles, tofu, and a medley of fresh herbs. Commonly eaten by Buddhist vegetarians in Vietnam, it's high in plant-based protein, fiber, and antioxidants.",
+  "region": "Vietnam",
+  "type": "Soup"
+},
+{
+  "id": "82",
+  "text": "Oatmeal with Apples and Cinnamon is warm oatmeal cooked with apples, cinnamon, and a touch of honey, making a hearty and balanced breakfast. High in soluble fiber, it supports heart health and is vegetarian, with gluten-free options when using certified oats.",
+  "region": "United Kingdom / USA",
+  "type": "Breakfast"
+},
+{
+  "id": "83",
+  "text": "Lentil Soup is a protein-rich soup made from lentils, carrots, celery, and spices. It's both comforting and nourishing, perfect for cold days. An excellent source of protein, iron, and fiber, this vegan and gluten-free soup is both healthy and satisfying.",
+  "region": "Middle East",
+  "type": "Healthy Soup"
+},
+{
+  "id": "84",
+  "text": "Sushi Rolls consist of vinegared rice rolled with seaweed, vegetables, and raw or cooked seafood. They emphasize balance and presentation, central to Japanese cuisine and celebrations. High in omega-3 from fish, low fat, and rich in iodine, with vegetarian and gluten-free options available.",
+  "region": "Japan",
+  "type": "Main Course"
+},
+{
+  "id": "85",
+  "text": "Paella is a saffron-flavored rice dish cooked with seafood, chicken, and vegetables in a wide, shallow pan to achieve a crispy rice crust. A traditional dish from Valencia shared at family gatherings, it's high in protein, vitamin B12, and iron, and is gluten-free.",
+  "region": "Spain",
+  "type": "Main Course"
+},
+{
+  "id": "86",
+  "text": "Tacos al Pastor are filled with marinated pork roasted on a vertical spit and topped with pineapple, onions, and cilantro. The meat preparation is inspired by Middle Eastern shawarma. This iconic Mexican street food with Lebanese influence is high in protein with moderate fat.",
+  "region": "Mexico",
+  "type": "Street Food"
+},
+{
+  "id": "87",
+  "text": "Falafel Wrap consists of fried chickpea patties wrapped in pita bread with tahini sauce, pickles, and vegetables. They are crunchy outside and soft inside. A staple of Middle Eastern vegetarian cuisine, they're high in fiber and plant-based protein, and can be vegan if prepared without yogurt sauce.",
+  "region": "Middle East",
+  "type": "Vegetarian Main"
+},
+{
+  "id": "88",
+  "text": "Quinoa Salad with Chickpeas is a refreshing, protein-packed salad combining quinoa, chickpeas, fresh vegetables, and lemon dressing. It's ideal for those seeking plant-based nutrition. Quinoa is an ancient Andean grain used by the Incas, making this dish high in plant protein, fiber, iron, and magnesium.",
+  "region": "South America",
+  "type": "Healthy Meal"
+},
+{
+  "id": "89",
+  "text": "Greek Yogurt with berries and nuts is a wholesome combination of creamy yogurt, antioxidant-rich berries, and crunchy nuts. This meal promotes gut health and sustained energy. A staple of the Mediterranean diet, it's high in probiotics, calcium, and protein.",
+  "region": "Greece",
+  "type": "Healthy Snack"
+},
+{
+  "id": "90",
+  "text": "Steamed Broccoli with Garlic and Olive Oil is a simple yet nutrient-dense side dish that retains the bright green color and crunch of broccoli while boosting flavor with garlic and olive oil. Rich in fiber, vitamin C, and antioxidants, this Mediterranean preparation is both vegan and gluten-free.",
+  "region": "Mediterranean Region",
+  "type": "Healthy Side Dish"
 }
 ]
