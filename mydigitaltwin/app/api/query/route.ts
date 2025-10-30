@@ -1,9 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { exec } from 'child_process';
-import { promisify } from 'util';
-import path from 'path';
-
-const execAsync = promisify(exec);
+import { queryFoodRAG } from '../../../src/actions/foodRagActions';
 
 export async function POST(request: NextRequest) {
   try {
@@ -16,28 +12,8 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Path to the Python script (go up to parent ragfood directory)
-    const scriptPath = path.join(process.cwd(), '..', 'rag_api.py');
-    
-    // Execute Python script with the question
-    const { stdout, stderr } = await execAsync(
-      `python3 "${scriptPath}" "${question.replace(/"/g, '\\"')}"`,
-      {
-        cwd: path.join(process.cwd(), '..'),
-        timeout: 30000, // 30 second timeout
-      }
-    );
-
-    if (stderr && !stdout) {
-      console.error('Python stderr:', stderr);
-      return NextResponse.json(
-        { error: 'Error executing RAG query', details: stderr },
-        { status: 500 }
-      );
-    }
-
-    // Parse the JSON response from Python
-    const result = JSON.parse(stdout);
+    // Use the server action to query Food RAG
+    const result = await queryFoodRAG(question);
 
     if (!result.success) {
       return NextResponse.json(
@@ -47,8 +23,9 @@ export async function POST(request: NextRequest) {
     }
 
     return NextResponse.json({
-      question: result.question,
+      question: question,
       answer: result.answer,
+      metadata: result.metadata,
     });
 
   } catch (error: any) {
