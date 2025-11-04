@@ -59,10 +59,11 @@ export default function Home() {
       };
 
       setMessages(prev => [...prev, assistantMessage]);
-    } catch (error: any) {
+    } catch (error: unknown) {
+      const errorContent = error instanceof Error ? error.message : 'Unknown error occurred';
       const errorMessage: Message = {
         role: 'assistant',
-        content: `Sorry, I encountered an error: ${error.message}`,
+        content: `Sorry, I encountered an error: ${errorContent}`,
         timestamp: new Date(),
       };
       setMessages(prev => [...prev, errorMessage]);

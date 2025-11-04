@@ -28,12 +28,13 @@ export async function POST(request: NextRequest) {
       metadata: result.metadata,
     });
 
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error('API Error:', error);
+    const errorMessage = error instanceof Error ? error.message : 'Unknown error';
     return NextResponse.json(
       { 
         error: 'Failed to process query',
-        details: error.message 
+        details: errorMessage 
       },
       { status: 500 }
     );

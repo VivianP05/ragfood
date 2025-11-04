@@ -148,15 +148,19 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
   try {
     switch (name) {
       case "query_food_database":
+        if (!args) throw new Error("Missing arguments");
         return await handleQueryFoodDatabase(args);
       
       case "search_by_category":
+        if (!args) throw new Error("Missing arguments");
         return await handleSearchByCategory(args);
       
       case "get_food_recommendations":
+        if (!args) throw new Error("Missing arguments");
         return await handleGetRecommendations(args);
       
       case "search_by_region":
+        if (!args) throw new Error("Missing arguments");
         return await handleSearchByRegion(args);
       
       default:
@@ -179,7 +183,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
 /**
  * Handle query_food_database tool
  */
-async function handleQueryFoodDatabase(args: any) {
+async function handleQueryFoodDatabase(args: Record<string, unknown>) {
   const question = args.question as string;
 
   if (!question || question.trim().length === 0) {
@@ -200,8 +204,8 @@ async function handleQueryFoodDatabase(args: any) {
   // Build context
   const contextItems: string[] = [];
   
-  results.forEach((result, idx) => {
-    const metadata = result.metadata as Record<string, any>;
+  results.forEach((result) => {
+    const metadata = result.metadata as Record<string, string | undefined>;
     
     let foodInfo: string;
     
@@ -270,7 +274,7 @@ Be conversational, informative, and encouraging.`,
 /**
  * Handle search_by_category tool
  */
-async function handleSearchByCategory(args: any) {
+async function handleSearchByCategory(args: Record<string, unknown>) {
   const category = args.category as string;
   const limit = (args.limit as number) || 5;
 
@@ -283,7 +287,7 @@ async function handleSearchByCategory(args: any) {
   });
 
   const foodItems = results.map((result, idx) => {
-    const metadata = result.metadata as Record<string, any>;
+    const metadata = result.metadata as Record<string, string | undefined>;
     const name = metadata.name || metadata.text || "Unknown";
     const description = metadata.description || metadata.text || "";
     const region = metadata.region || metadata.origin || "Unknown";
@@ -305,7 +309,7 @@ async function handleSearchByCategory(args: any) {
 /**
  * Handle get_food_recommendations tool
  */
-async function handleGetRecommendations(args: any) {
+async function handleGetRecommendations(args: Record<string, unknown>) {
   const preferences = args.preferences as string;
 
   console.error(`🔍 Finding recommendations for: ${preferences}`);
@@ -318,7 +322,7 @@ async function handleGetRecommendations(args: any) {
 
   const foodList = results
     .map((r, idx) => {
-      const metadata = r.metadata as Record<string, any>;
+      const metadata = r.metadata as Record<string, string | undefined>;
       const name = metadata.name || metadata.text;
       const desc = metadata.description || "";
       return `${idx + 1}. ${name}${desc ? `: ${desc}` : ""}`;
@@ -357,7 +361,7 @@ async function handleGetRecommendations(args: any) {
 /**
  * Handle search_by_region tool
  */
-async function handleSearchByRegion(args: any) {
+async function handleSearchByRegion(args: Record<string, unknown>) {
   const region = args.region as string;
   const limit = (args.limit as number) || 5;
 
@@ -370,7 +374,7 @@ async function handleSearchByRegion(args: any) {
   });
 
   const foodItems = results.map((result, idx) => {
-    const metadata = result.metadata as Record<string, any>;
+    const metadata = result.metadata as Record<string, string | undefined>;
     const name = metadata.name || metadata.text || "Unknown";
     const description = metadata.description || metadata.text || "";
     const origin = metadata.region || metadata.origin || region;

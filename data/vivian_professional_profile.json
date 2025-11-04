@@ -1,0 +1,450 @@
+[
+  {
+    "id": "vivian-001",
+    "section": "basic_info",
+    "name": "Vivian Pham - Professional Profile",
+    "category": "Personal Information",
+    "text": "Vivian Pham is an AI Data Analyst Intern based in Sydney, Australia. She is currently completing a Bachelor of Information Systems Management at Victoria University (graduating June 2026) and planning to pursue a Master of Data Science. She works at Ausbiz Consulting as an AI Data Analyst Intern since September 2025. Her GitHub portfolio is at https://github.com/VivianP05, showcasing projects like ragfood (AI food recommendation system) and digital twin workshop.",
+    "metadata": {
+      "title": "AI Data Analyst Intern",
+      "location": "Sydney, Australia",
+      "education": "Bachelor of Information Systems Management",
+      "company": "Ausbiz Consulting",
+      "github": "https://github.com/VivianP05"
+    }
+  },
+  {
+    "id": "vivian-002",
+    "section": "compensation",
+    "name": "Salary Expectations and Compensation",
+    "category": "Compensation & Availability",
+    "text": "Vivian is currently in an unpaid internship at Ausbiz Consulting gaining valuable experience. For permanent roles, she is targeting $55,000 - $70,000 AUD annually (entry-level Data Analyst $55k-$65k, Junior BI Analyst $60k-$70k). For contract roles, she is seeking $500 - $600 per day, with openness to rate adjustments after proving value in the first 1-3 months. Her priority is learning opportunities, mentorship, and challenging projects over maximum salary. She is flexible and more interested in skill development and career growth than maximizing compensation.",
+    "metadata": {
+      "permanent_salary_min": "55000",
+      "permanent_salary_max": "70000",
+      "contract_rate_min": "500",
+      "contract_rate_max": "600",
+      "currency": "AUD",
+      "current_status": "unpaid_internship",
+      "priority": "learning_and_growth"
+    }
+  },
+  {
+    "id": "vivian-003",
+    "section": "availability",
+    "name": "Work Authorization and Availability",
+    "category": "Compensation & Availability",
+    "text": "Vivian is an Australian Citizen with unrestricted work rights in Australia - no visa required. She is available for immediate start (can provide 2 weeks notice to current internship). She is available full-time Monday-Friday 9am-5pm with capacity for 40 hours per week. She is completing her Bachelor's degree until June 2026 with evening/weekend classes only. She prefers 6-12 month contracts aligning with her graduation timeline. After graduation in July 2026, she will be open to permanent roles and career progression opportunities. She is willing to relocate within Australia (Sydney, Melbourne, Brisbane, Canberra) with 1-2 months notice and prefers relocation assistance.",
+    "metadata": {
+      "work_authorization": "Australian Citizen",
+      "visa_required": "no",
+      "availability": "immediate",
+      "notice_period": "2 weeks",
+      "full_time": "yes",
+      "hours_per_week": "40",
+      "study_until": "June 2026",
+      "relocation_willing": "yes",
+      "travel_willing": "yes"
+    }
+  },
+  {
+    "id": "vivian-004",
+    "section": "work_preferences",
+    "name": "Work Arrangements and Location Preferences",
+    "category": "Compensation & Availability",
+    "text": "Vivian's preferred work arrangement is hybrid (3 days office, 2 days remote) for collaboration, mentorship, and team culture while enabling focused analytical work remotely. She is experienced with fully remote work during her internship with self-directed work style and minimal supervision needed. She has a dedicated home office setup with high-speed internet and professional video setup, available for regular meetings 9am-5pm AEST. She is also open to full-time office-based work for face-to-face mentorship and faster learning. She is willing to travel occasionally interstate for client meetings or training (up to 10-15%, 1-2 trips per month) and holds a valid Australian passport.",
+    "metadata": {
+      "preferred_arrangement": "hybrid",
+      "hybrid_split": "3 office, 2 remote",
+      "remote_experience": "yes",
+      "office_willing": "yes",
+      "travel_frequency": "10-15%",
+      "passport": "valid_australian"
+    }
+  },
+  {
+    "id": "vivian-005",
+    "section": "current_experience",
+    "name": "Ausbiz Consulting AI Data Analyst Intern Experience",
+    "category": "Professional Experience",
+    "text": "Vivian works as an AI Data Analyst Intern at Ausbiz Consulting from September 2025 to present (3 months). Her key achievements include: Automated data cleaning workflows resulting in 70% time reduction (15 hours to 4 hours per week), improved data accuracy from 85% to 97% through Python automation, built 5 executive dashboards in Excel used by 15+ stakeholders, reduced monthly reporting time by 60% saving 72 hours annually, trained 2 junior analysts on automation workflows, maintained 100% on-time delivery record over 6 months, and collaborated with senior analysts on client data quality projects.",
+    "metadata": {
+      "company": "Ausbiz Consulting",
+      "role": "AI Data Analyst Intern",
+      "duration": "September 2025 - Present",
+      "duration_months": "3",
+      "time_reduction": "70%",
+      "accuracy_improvement": "85% to 97%",
+      "dashboards_built": "5",
+      "stakeholders_impacted": "15+",
+      "on_time_delivery": "100%"
+    }
+  },
+  {
+    "id": "vivian-006",
+    "section": "excel_skills",
+    "name": "Excel Expertise - Core Strength",
+    "category": "Technical Skills",
+    "text": "Vivian has advanced Excel skills (Level 5, 2 years experience) which is one of her core strengths. She is proficient in advanced formulas including VLOOKUP, INDEX-MATCH, nested IF statements, SUMIFS, COUNTIFS, and array formulas. She has expert-level skills in pivot tables for dynamic reporting, data modeling, multi-dimensional analysis, and calculated fields. She has advanced VBA macro skills for automation scripts, data refresh, and custom functions. She has created 5 executive dashboards used by 15+ stakeholders. She has expert data visualization skills including chart selection, color theory, and visual hierarchy. Her notable achievements include saving 72 hours annually through automation, maintaining 100% on-time delivery over 6 months, and receiving 9/10 or higher ratings from 4 out of 5 stakeholders on her dashboards.",
+    "metadata": {
+      "skill": "Excel",
+      "proficiency": "5",
+      "level": "Advanced - Expert",
+      "years_experience": "2",
+      "dashboards_created": "5",
+      "stakeholders": "15+",
+      "hours_saved_annually": "72",
+      "on_time_delivery": "100%",
+      "stakeholder_rating": "9/10"
+    }
+  },
+  {
+    "id": "vivian-007",
+    "section": "power_bi_skills",
+    "name": "Power BI Certification and Skills",
+    "category": "Technical Skills",
+    "text": "Vivian has completed Microsoft Power BI Certification Training at The Knowledge Academy (Level 2-3, Basic to Intermediate). The certification training covered data connections and Power Query for ETL, DAX formulas including calculated columns, measures, and time intelligence, dashboard design and interactive visualizations, data modeling with relationships, star schema, and data integrity, and report creation and publishing to Power BI Service. She has hands-on experience building multiple dashboards during certification training using real datasets. Her current capabilities include dashboard design with interactive filters and slicers, DAX calculations (SUM, AVERAGE, CALCULATE, FILTER), Power Query for data transformation and cleaning, data modeling and relationship management, and visualization best practices. She has strong transferable skills from Excel including pivot tables to Power BI tables, advanced formulas to DAX, VBA concepts to Power Query M language, and dashboard design principles from 5 Excel dashboards. She is currently expanding her proficiency through practical projects (15 hours per week) with a target of reaching Intermediate to Advanced proficiency within 4-6 weeks.",
+    "metadata": {
+      "skill": "Power BI",
+      "proficiency": "2-3",
+      "level": "Basic to Intermediate",
+      "certification": "Microsoft Power BI Certification Training",
+      "training_provider": "The Knowledge Academy",
+      "weekly_practice": "15 hours",
+      "target_proficiency": "Intermediate to Advanced",
+      "target_timeline": "4-6 weeks",
+      "transferable_from": "Excel"
+    }
+  },
+  {
+    "id": "vivian-008",
+    "section": "python_skills",
+    "name": "Python Programming and Data Analysis",
+    "category": "Technical Skills",
+    "text": "Vivian has intermediate Python skills (Level 3, 1 year experience). She is advanced with pandas (Level 4) for data cleaning, transformation, and processing 250k records with automated workflows. She has intermediate NumPy skills (Level 3) for numerical operations and array manipulation. She is advanced with Jupyter Notebooks (Level 4) for data exploration, prototyping, and analysis documentation. Her notable projects include data quality automation saving 572 hours annually, ragfood backend development, and CLI tools. She is self-taught through projects, learned pandas and NumPy in just 2 weeks, and continues learning through Master's coursework and online tutorials.",
+    "metadata": {
+      "skill": "Python",
+      "proficiency": "3",
+      "level": "Intermediate",
+      "years_experience": "1",
+      "pandas_level": "4",
+      "numpy_level": "3",
+      "jupyter_level": "4",
+      "records_processed": "250000",
+      "hours_saved_annually": "572",
+      "learning_speed": "2 weeks for pandas/NumPy"
+    }
+  },
+  {
+    "id": "vivian-009",
+    "section": "sql_skills",
+    "name": "SQL Database Querying",
+    "category": "Technical Skills",
+    "text": "Vivian has mid-level SQL skills (Level 3, 1 year experience). She is advanced with SELECT, WHERE, and JOIN operations (Level 4) for daily data extraction and filtering. She has advanced aggregation skills (Level 4) with GROUP BY and HAVING for summary statistics and reporting. She has intermediate subquery skills (Level 3) for nested queries and complex analysis. She is currently learning window functions (Level 2) including ROW_NUMBER, RANK, and LAG. She has basic query optimization knowledge (Level 2) including indexing awareness and execution plan reading. The largest dataset she has worked with is 500,000 rows. She is proficient in PostgreSQL (preferred) and MySQL dialects.",
+    "metadata": {
+      "skill": "SQL",
+      "proficiency": "3",
+      "level": "Mid-Level",
+      "years_experience": "1",
+      "select_level": "4",
+      "aggregation_level": "4",
+      "subquery_level": "3",
+      "window_functions_level": "2",
+      "largest_dataset": "500000 rows",
+      "dialects": "PostgreSQL, MySQL"
+    }
+  },
+  {
+    "id": "vivian-010",
+    "section": "typescript_skills",
+    "name": "TypeScript and Frontend Development",
+    "category": "Technical Skills",
+    "text": "Vivian has basic to intermediate TypeScript skills (Level 2, 6 months experience). She has developed the ragfood frontend using Next.js 16, API routes, and server actions. She has basic React 19 knowledge (Level 2) including component-based UI and hooks (useState, useEffect). Her primary use cases are full-stack web applications and REST API integration. She is self-taught for personal projects through documentation-driven learning.",
+    "metadata": {
+      "skill": "TypeScript",
+      "proficiency": "2",
+      "level": "Basic to Intermediate",
+      "years_experience": "0.5",
+      "nextjs_version": "16",
+      "react_version": "19",
+      "learning_method": "self-taught"
+    }
+  },
+  {
+    "id": "vivian-011",
+    "section": "ai_ml_skills",
+    "name": "AI/ML Tools and Vector Databases",
+    "category": "Technical Skills",
+    "text": "Vivian has hands-on experience with several AI/ML tools. She has intermediate Upstash Vector skills (Level 3) from the ragfood project with 200 food vectors and semantic search implementation. She understands vector embeddings, cosine similarity, and top_k search optimization. Her database uses 200 vectors with 1024 dimensions and the mxbai-embed-large-v1 model. She has basic Groq AI skills (Level 2) using the llama-3.1-8b-instant model for ragfood AI response generation in RAG architecture. She knows prompt engineering, LLM API integration, and response streaming. She has basic knowledge of embedding models (Level 2) specifically mxbai-embed-large-v1 for text embeddings and semantic search, understanding 1024-dimensional embeddings, text vectorization, and similarity scoring.",
+    "metadata": {
+      "upstash_vector_level": "3",
+      "groq_ai_level": "2",
+      "embedding_model": "mxbai-embed-large-v1",
+      "vector_count": "200",
+      "dimensions": "1024",
+      "llm_model": "llama-3.1-8b-instant",
+      "project": "ragfood"
+    }
+  },
+  {
+    "id": "vivian-012",
+    "section": "project_automation",
+    "name": "STAR Project: Data Quality Automation at Ausbiz",
+    "category": "Projects",
+    "text": "PROJECT: Data Quality Automation & Remediation at Ausbiz Consulting (September 2025 - Present, 3 months, AI Data Analyst Intern). SITUATION: Client datasets had 15-20% error rates, manual data cleaning consumed 15 hours per week. This time-intensive, error-prone process delayed client deliverables across 3 client accounts affecting 250,000 records. TASK: Automate data cleaning to reduce manual effort and improve accuracy. Responsibilities included profiling 250,000 records across 45 fields, designing automated validation workflows, implementing Python scripts, and documenting processes. ACTION: Analyzed 250k records in weeks 1-2, identified 8 error types (missing values, format issues, duplicates, invalid entries). Categorized by severity (2 critical, 3 high, 2 medium, 1 low). Built Python automation using pandas in week 3 with validation rules, data type checks, format standardization, duplicate detection. Tested on sample datasets (5k, 10k, 50k records) in week 4. Deployed to production in weeks 5-6, automating 80% of recurring errors. Ongoing monitoring and iteration added 3 new validation rules. TECHNOLOGIES: Python, pandas, NumPy, Excel, Git, Jupyter Notebooks. RESULTS: Reduced manual cleaning from 15 to 4 hours/week (70% reduction = 572 hours saved annually), improved accuracy from 85% to 97% (+12 points), automated daily processing of 50,000 records, scripts adopted by 2 team members, 3-day faster deliverable turnaround, critical errors reduced from 5% to 0.5% (90% reduction), enabled handling 2 additional client accounts without hiring. SKILLS: Data profiling, Python automation, pandas optimization, process improvement, documentation, training, problem-solving.",
+    "metadata": {
+      "project": "Data Quality Automation",
+      "company": "Ausbiz Consulting",
+      "role": "AI Data Analyst Intern",
+      "duration_months": "3",
+      "time_reduction": "70%",
+      "hours_saved_weekly": "11",
+      "hours_saved_annually": "572",
+      "accuracy_before": "85%",
+      "accuracy_after": "97%",
+      "records_automated": "50000 daily",
+      "team_adoption": "2 members",
+      "error_reduction": "90%",
+      "business_impact": "2 additional client accounts"
+    }
+  },
+  {
+    "id": "vivian-013",
+    "section": "project_dashboard",
+    "name": "STAR Project: Executive KPI Dashboard at Data Coaching",
+    "category": "Projects",
+    "text": "PROJECT: Executive KPI Dashboard Design at Data Coaching (May 2025 - August 2025, 4 months, AI Data Analyst Intern). SITUATION: Senior leadership lacked real-time visibility into data quality metrics across 3 client accounts. Monthly KPI reports took 10 hours to prepare manually, and data was 1-2 weeks outdated by presentation time. TASK: Design and build automated Excel dashboard for real-time KPI tracking. Requirements included interviewing 5 stakeholders, creating 12 KPIs across 4 categories (data quality, processing efficiency, team productivity, client satisfaction), enabling self-service for 15 users, and reducing report prep time by 50%+. ACTION: Week 1 interviewed 5 stakeholders (3 senior analysts, 2 client service managers) for KPI requirements. Week 2 designed dashboard layout with 4 categories, 12 metrics, visual hierarchy. Weeks 3-4 built dashboard using advanced Excel: VLOOKUP, INDEX-MATCH, nested IF, SUMIFS, COUNTIFS, pivot tables, charts (line, bar, pie, gauge). Week 5 automated data refresh with VBA macros, connected 3 client data sources. Week 6 validated with 3 sample months, gathered feedback from 5 test users. Weeks 7-8 trained 15 stakeholders in 2 group sessions, created 1-page user guide, set up monthly presentation schedule. Ongoing monthly insights presentations to senior leadership (15-20 min). TECHNOLOGIES: Excel Advanced, VBA Macros, Pivot Tables, Advanced Formulas, Data Visualization. RESULTS: Used by 15 stakeholders across 3 departments (100% adoption), reduced report prep from 10 to 4 hours/month (60% reduction = 72 hours saved annually), accessed 50+ times per month (3-4 views per user), real-time data vs 1-2 week lag, 100% on-time delivery over 6 months, 4 of 5 stakeholders rated 9/10 or higher, template reused for 3 additional client dashboards, enabled data-driven decision-making for resource allocation. SKILLS: Stakeholder management, requirements gathering, dashboard design, Excel expertise, data visualization, executive reporting, training, presentation, project management.",
+    "metadata": {
+      "project": "Executive KPI Dashboard",
+      "company": "Data Coaching",
+      "role": "AI Data Analyst Intern",
+      "duration_months": "4",
+      "stakeholders": "15",
+      "kpis": "12",
+      "categories": "4",
+      "time_reduction": "60%",
+      "hours_saved_monthly": "6",
+      "hours_saved_annually": "72",
+      "adoption_rate": "100%",
+      "on_time_delivery": "100%",
+      "stakeholder_rating": "9/10",
+      "reused_templates": "3"
+    }
+  },
+  {
+    "id": "vivian-014",
+    "section": "project_ragfood",
+    "name": "STAR Project: ragfood AI Food Recommendation System",
+    "category": "Projects",
+    "text": "PROJECT: ragfood - AI-Powered Food Recommendation System (Personal Project, September 2025 - November 2025, 3 months). GitHub: https://github.com/VivianP05/ragfood. Live Demo: Deployed on Vercel. SITUATION: Learning project to understand RAG (Retrieval-Augmented Generation) systems and apply AI/ML knowledge from Master's coursework. Technical challenge was building full-stack system integrating vector database, AI model, and web interface from scratch with no prior experience. TASK: Solo developer responsible for entire system. Requirements: Store 200+ food items with semantic search, enable intelligent search using vector embeddings, generate AI conversational responses using LLM, build user-friendly web chat interface, deploy to cloud, learn and integrate 4 new technologies (Next.js, Upstash Vector, Groq AI, TypeScript). ACTION: Data preparation collected and structured 110 food items in JSON with descriptions, regions, dietary tags. Vector database setup configured Upstash Vector with 200 items using mxbai-embed-large-v1 model (1024 dimensions). Backend development built Python API with RAG query logic implementing semantic search with top_k=3, integrated Groq AI (llama-3.1-8b-instant), created RESTful API with JSON. Frontend development built Next.js 16 with TypeScript for type safety, React 19 components, Tailwind CSS responsive design, chat interface with message history. Testing built CLI for rapid testing, web UI for user validation. Deployment to Vercel with environment variable management. TECHNOLOGIES: Python, Upstash Vector SDK, Groq AI API, Next.js 16, TypeScript, React 19, Tailwind CSS, Vercel, GitHub, Vector embeddings (mxbai-embed-large-v1), Semantic search, LLM integration. RESULTS: Live deployment on Vercel (publicly accessible), 200 food vectors with high search relevance, 0.7-1.5 second average query response time, successfully implemented RAG architecture from scratch with no prior experience, integrated 4 different technologies into cohesive system, type-safe TypeScript with modular Python and documented code (production-ready), gained practical experience with vector databases, semantic search, LLM integration, full-stack development. SKILLS: Full-stack development, RAG systems, vector databases, LLM integration, cloud deployment, self-directed learning, problem-solving, API integration, TypeScript, React, Python.",
+    "metadata": {
+      "project": "ragfood",
+      "type": "Personal Project",
+      "duration_months": "3",
+      "github": "https://github.com/VivianP05/ragfood",
+      "deployment": "Vercel",
+      "status": "live",
+      "food_vectors": "200",
+      "response_time": "0.7-1.5s",
+      "technologies_learned": "4",
+      "tech_stack": "Next.js 16, TypeScript, Python, Upstash Vector, Groq AI",
+      "embedding_model": "mxbai-embed-large-v1",
+      "llm_model": "llama-3.1-8b-instant"
+    }
+  },
+  {
+    "id": "vivian-015",
+    "section": "soft_skills_communication",
+    "name": "Communication Skills - Advanced Level",
+    "category": "Soft Skills",
+    "text": "Vivian has advanced communication skills (Level 4). Evidence includes monthly presentations to 15 senior stakeholders at Ausbiz, translating technical data insights to non-technical audiences (client service managers, practice lead), creating user documentation and training materials for automation workflows, and interviewing 5 stakeholders for dashboard requirements gathering. Specific situations include presenting KPI dashboard insights to practice lead (executive-level communication), training 2 junior analysts on Python automation (peer-level teaching), and gathering requirements from diverse stakeholders with competing priorities.",
+    "metadata": {
+      "skill": "Communication",
+      "proficiency": "4",
+      "level": "Advanced",
+      "presentations": "monthly to 15 stakeholders",
+      "training_delivered": "2 junior analysts",
+      "stakeholder_interviews": "5",
+      "audiences": "executives, peers, technical and non-technical"
+    }
+  },
+  {
+    "id": "vivian-016",
+    "section": "soft_skills_problem_solving",
+    "name": "Problem-Solving Skills - Expert Level Core Strength",
+    "category": "Soft Skills",
+    "text": "Vivian has expert problem-solving skills (Level 5) which is a core strength. Evidence includes automating data cleaning with 70% time reduction through systematic process improvement, designing dashboard architecture from stakeholder needs (translating requirements into technical solutions), and debugging complex API integration issues in the ragfood project. Her approach follows: Root cause analysis → Brainstorm solutions → Prototype → Test → Iterate → Document. Examples include identifying 8 distinct error types in datasets and prioritizing by business impact, and overcoming performance issues with 50k+ record processing through pandas optimization.",
+    "metadata": {
+      "skill": "Problem-Solving",
+      "proficiency": "5",
+      "level": "Expert - Core Strength",
+      "time_reduction_achieved": "70%",
+      "systematic_approach": "yes",
+      "error_types_identified": "8",
+      "optimization_experience": "50k+ records"
+    }
+  },
+  {
+    "id": "vivian-017",
+    "section": "soft_skills_learning_agility",
+    "name": "Learning Agility - Expert Level Core Strength",
+    "category": "Soft Skills",
+    "text": "Vivian has expert learning agility (Level 5) which is a core strength. Evidence includes learning pandas and NumPy in just 2 weeks to deliver the Ausbiz automation project on time, self-teaching Next.js, TypeScript, and React for ragfood frontend with no prior experience, currently learning Power BI with 15 hours per week commitment, and building a production RAG system with 4 new technologies in 3 months. Her learning style is hands-on projects over theory, structured online courses, pair programming with mentors, and documentation-driven learning. She consistently picks up new technologies in 2-4 weeks through intensive practice.",
+    "metadata": {
+      "skill": "Learning Agility",
+      "proficiency": "5",
+      "level": "Expert - Core Strength",
+      "pandas_numpy_learning": "2 weeks",
+      "power_bi_practice": "15 hours/week",
+      "technologies_learned_ragfood": "4",
+      "learning_speed": "2-4 weeks for new tech",
+      "learning_style": "hands-on projects"
+    }
+  },
+  {
+    "id": "vivian-018",
+    "section": "soft_skills_time_management",
+    "name": "Time Management - Expert Level",
+    "category": "Soft Skills",
+    "text": "Vivian has expert time management skills (Level 5). Evidence includes successfully balancing Bachelor's degree, Ausbiz internship, and 2 personal projects simultaneously. She maintains a 100% on-time delivery record with 0 missed deadlines over 6 months at Ausbiz. Her weekly time blocking includes study (evenings/weekends), internship (weekdays), and projects (weekends). Her approach uses a priority matrix (urgent/important), weekly planning, and proactive communication about capacity.",
+    "metadata": {
+      "skill": "Time Management",
+      "proficiency": "5",
+      "level": "Expert",
+      "on_time_delivery": "100%",
+      "missed_deadlines": "0",
+      "period_tracked": "6 months",
+      "concurrent_commitments": "3",
+      "planning_method": "priority matrix, weekly planning"
+    }
+  },
+  {
+    "id": "vivian-019",
+    "section": "soft_skills_collaboration",
+    "name": "Collaboration Skills - Advanced Level",
+    "category": "Soft Skills",
+    "text": "Vivian has advanced collaboration skills (Level 4). Evidence includes team projects at Ausbiz working with 3 senior analysts and 2 client service managers, training 2 junior analysts on automation workflows (knowledge sharing), gathering stakeholder feedback for dashboard iterations (incorporating diverse perspectives), and cross-functional collaboration across analytics team, client services, and practice leadership.",
+    "metadata": {
+      "skill": "Collaboration",
+      "proficiency": "4",
+      "level": "Advanced",
+      "senior_analysts_worked_with": "3",
+      "client_managers_worked_with": "2",
+      "junior_analysts_trained": "2",
+      "cross_functional": "yes"
+    }
+  },
+  {
+    "id": "vivian-020",
+    "section": "career_goals",
+    "name": "Career Goals and Aspirations",
+    "category": "Career Planning",
+    "text": "SHORT-TERM GOALS: Graduate Bachelor of Information Systems Management in June 2026, complete Master of Data Science in 2 years, gain real-world AI experience at Ausbiz, and develop practical data analysis skills. LONG-TERM GOALS: Become Data Scientist, Data Analyst or AI Specialist, work on impactful ML and data analytics projects, join companies with strong data science culture such as Canva, Atlassian, or REA Group. TARGET COMPANIES include Tech (Canva for data-driven design, Atlassian for enterprise analytics, REA Group for property data, Seek for job market analytics), Consulting (Deloitte Digital, PwC Analytics, KPMG Data & Analytics, Accenture Applied Intelligence), and Melbourne AI/ML startups, data analytics consulting firms, and fintech companies.",
+    "metadata": {
+      "graduation": "June 2026",
+      "degree_current": "Bachelor Information Systems Management",
+      "degree_planned": "Master of Data Science",
+      "target_roles": "Data Scientist, Data Analyst, AI Specialist",
+      "target_companies": "Canva, Atlassian, REA Group, Big 4 Consulting",
+      "preferred_culture": "strong data science culture"
+    }
+  },
+  {
+    "id": "vivian-021",
+    "section": "behavioral_learning",
+    "name": "Behavioral: Learning New Technology Quickly",
+    "category": "Behavioral Interview",
+    "text": "BEHAVIORAL QUESTION: Tell me about a time you had to learn a new technology quickly. SITUATION: Needed advanced Python skills for Ausbiz automation project with tight 2-week deadline. TASK: Develop pandas and NumPy proficiency from basic to project-ready in just 2 weeks. ACTION: Created structured learning plan with daily goals, completed online tutorials and documentation, did hands-on practice with real datasets, pair programmed with senior analysts for feedback and best practices. RESULT: Delivered automation project on time, achieved 30% faster analysis compared to manual methods, received positive feedback from mentors on code quality, gained confidence to take on more complex Python projects.",
+    "metadata": {
+      "question_type": "behavioral",
+      "topic": "learning_new_technology",
+      "technology": "Python pandas NumPy",
+      "timeframe": "2 weeks",
+      "result_metric": "30% faster analysis",
+      "delivery": "on time"
+    }
+  },
+  {
+    "id": "vivian-022",
+    "section": "behavioral_teamwork",
+    "name": "Behavioral: Effective Teamwork",
+    "category": "Behavioral Interview",
+    "text": "BEHAVIORAL QUESTION: Describe a time you worked effectively in a team. SITUATION: Internship at Ausbiz Consulting working with experienced senior analysts while still learning. TASK: Collaborate effectively with team members, contribute meaningfully despite being junior, and learn from more experienced colleagues. ACTION: Communicated clearly about my learning curve and asked questions proactively, contributed Excel dashboard skills which were valuable to the team, incorporated feedback quickly and adapted my approach, participated actively in team discussions and brainstorming sessions. RESULT: Successfully completed all assigned projects on time, received positive feedback on collaboration and willingness to learn, built strong working relationships with 3 senior analysts and 2 client managers, automation work was adopted by 2 other team members showing its value.",
+    "metadata": {
+      "question_type": "behavioral",
+      "topic": "teamwork",
+      "team_size": "5+",
+      "senior_analysts": "3",
+      "on_time_delivery": "100%",
+      "work_adoption": "2 team members"
+    }
+  },
+  {
+    "id": "vivian-023",
+    "section": "behavioral_multiple_responsibilities",
+    "name": "Behavioral: Balancing Multiple Responsibilities",
+    "category": "Behavioral Interview",
+    "text": "BEHAVIORAL QUESTION: How do you handle balancing multiple responsibilities? SITUATION: Juggling Bachelor's degree coursework, Ausbiz internship (40 hours/week), and 2 personal AI projects (ragfood and digital twin) simultaneously. TASK: Balance all commitments without compromising quality in any area or burning out. ACTION: Created weekly schedule with time blocks for each commitment (study evenings/weekends, internship weekdays, projects weekends), used priority matrix to focus on urgent and important tasks first, communicated proactively with professors and manager about my capacity and deadlines, maintained boundaries to prevent burnout and ensure quality work. RESULT: Maintained good academic performance in Bachelor's program, successful internship with 100% on-time delivery record over 6 months, completed 2 substantial AI projects (ragfood deployed live on Vercel), developed strong time management skills that will benefit future roles.",
+    "metadata": {
+      "question_type": "behavioral",
+      "topic": "time_management",
+      "concurrent_commitments": "3",
+      "study": "Bachelor's degree",
+      "work": "40 hours/week internship",
+      "projects": "2 AI projects",
+      "on_time_delivery": "100%",
+      "burnout": "avoided"
+    }
+  },
+  {
+    "id": "vivian-024",
+    "section": "weakness_limited_experience",
+    "name": "Weakness: Limited Professional Experience",
+    "category": "Weaknesses & Mitigation",
+    "text": "WEAKNESS: Limited professional experience as early-career professional. MITIGATION: Actively gaining experience through Ausbiz internship, completing Bachelor's degree with practical projects, and building personal AI projects (ragfood, digital twin) to demonstrate skills. POSITIVE SPIN: Fresh perspective unburdened by legacy approaches, eager to learn and adapt quickly, proactive about skill development through courses and projects.",
+    "metadata": {
+      "weakness": "limited_professional_experience",
+      "mitigation": "internship, degree, personal projects",
+      "positive_spin": "fresh perspective, eager learner"
+    }
+  },
+  {
+    "id": "vivian-025",
+    "section": "weakness_python",
+    "name": "Weakness: Developing Advanced Python Skills",
+    "category": "Weaknesses & Mitigation",
+    "text": "WEAKNESS: Still developing advanced Python skills (currently intermediate Level 3). MITIGATION: Regular practice through daily coding, Master's coursework with structured learning, code reviews with senior analysts at Ausbiz, online coding challenges on platforms like LeetCode and HackerRank. POSITIVE SPIN: Fast learner who picked up pandas/NumPy in 2 weeks, solid fundamentals in place, continuously improving with each project, open to feedback and mentorship.",
+    "metadata": {
+      "weakness": "developing_advanced_python",
+      "current_level": "3 - intermediate",
+      "mitigation": "practice, coursework, code reviews, challenges",
+      "learning_speed": "pandas/NumPy in 2 weeks"
+    }
+  },
+  {
+    "id": "vivian-026",
+    "section": "weakness_large_scale",
+    "name": "Weakness: Limited Large-Scale Systems Exposure",
+    "category": "Weaknesses & Mitigation",
+    "text": "WEAKNESS: Limited exposure to large-scale enterprise systems and big data technologies. MITIGATION: Learning through Master's degree coursework covering distributed systems and big data, building cloud projects (ragfood deployed on Vercel with Upstash Vector cloud database), reading industry blogs and case studies about scaling challenges and solutions. POSITIVE SPIN: Building knowledge of best practices and architectural patterns, excited to learn from experienced professionals in production environments, strong foundation to build upon.",
+    "metadata": {
+      "weakness": "limited_large_scale_exposure",
+      "mitigation": "Master's coursework, cloud projects, industry learning",
+      "cloud_project": "ragfood on Vercel"
+    }
+  },
+  {
+    "id": "vivian-027",
+    "section": "interview_tips",
+    "name": "Interview Tips and Strengths to Highlight",
+    "category": "Interview Preparation",
+    "text": "KEY STRENGTHS TO HIGHLIGHT: Real-world experience through active internship at Ausbiz Consulting, continuous learning with Master's degree while working, hands-on projects including ragfood and digital-twin-workshop demonstrating AI/RAG systems, quick learner who picked up Python/pandas in 2 weeks for urgent project, effective collaboration and teamwork with senior analysts, strong communication presenting data insights to stakeholders, personal initiative building projects to learn AI technologies, excellent time management balancing studies, internship, and projects. INTERVIEW DOS: Emphasize learning agility and show you learn quickly, highlight projects to demonstrate practical skills, show enthusiasm and passion for data science, be honest about being early-career professional, ask insightful questions showing genuine interest, mention mentorship and show you value learning from others. INTERVIEW DON'TS: Don't apologize for being junior, don't exaggerate experience levels, don't say 'I don't know' without adding 'but I'd approach it by...', don't focus only on coursework - talk about projects too, don't forget to prepare questions for the interviewer.",
+    "metadata": {
+      "key_strengths_count": "8",
+      "dos_count": "6",
+      "donts_count": "5",
+      "learning_speed": "2 weeks",
+      "project_count": "2"
+    }
+  }
+]

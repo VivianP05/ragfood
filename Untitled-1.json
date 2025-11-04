@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "food-rag-system": {
+      "type": "http",
+      "url": "http://localhost:3000/api/mcp",
+      "timeout": 30000,
+      "description": "Food RAG System - AI-powered food and cuisine knowledge base with 200+ items"
+    }
+  }
+}

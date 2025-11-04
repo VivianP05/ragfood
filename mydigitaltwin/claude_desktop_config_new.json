@@ -1,0 +1,36 @@
+{
+  "mcpServers": {
+    "bootcamp-rag": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://ai-assist.ausbizconsulting.com.au/api/mcp"
+      ]
+    },
+    "tech-bootcamp-consultations": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://ai-assist.ausbizconsulting.com.au/api/mcp"
+      ]
+    },
+    "rolldice": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://rolldice.ausbizconsulting.com.au/api/mcp"
+      ]
+    },
+    "food-rag-system": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "http://localhost:3000/api/mcp"
+      ]
+    }
+  }
+}

@@ -8,7 +8,10 @@
     "start": "next start",
     "lint": "eslint",
     "build:mcp": "tsc -p tsconfig.mcp.json",
-    "mcp": "npm run build:mcp && node dist/mcp-server/index.js"
+    "mcp": "npm run build:mcp && node dist/mcp-server/index.js",
+    "benchmark": "tsx scripts/benchmark.ts",
+    "benchmark:json": "tsx scripts/benchmark.ts --format json",
+    "benchmark:md": "tsx scripts/benchmark.ts --format markdown"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.20.2",
@@ -23,9 +26,11 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "dotenv": "^17.2.3",
     "eslint": "^9",
     "eslint-config-next": "16.0.1",
     "tailwindcss": "^4",
+    "tsx": "^4.20.6",
     "typescript": "^5"
   }
 }
