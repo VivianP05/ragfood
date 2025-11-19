@@ -67,7 +67,8 @@ def query_vectors(index, query_text, top_k=3):
         results = index.query(
             data=query_text,
             top_k=top_k,
-            include_metadata=True
+            include_metadata=True,
+            include_data=True  # Important: request the actual text data
         )
         return results
     except Exception as e:
@@ -82,7 +83,7 @@ def generate_response_with_groq(client, prompt, model=DEFAULT_MODEL):
             messages=[
                 {
                     "role": "system",
-                    "content": "You are an AI digital twin. Answer questions as if you are the person, speaking in first person about your background, skills, and experience."
+                    "content": "You are Vivian Pham's AI assistant. Answer questions about her professional background, skills, experience, projects, and career goals based on the provided context. Be specific, use actual achievements and metrics when available, and speak professionally. If asked about her directly, you can refer to her in third person or use 'I' to represent her."
                 },
                 {
                     "role": "user",
@@ -114,34 +115,47 @@ def rag_query(index, groq_client, question):
         for result in results:
             metadata = result.metadata or {}
             
-            # Handle different metadata formats
-            if 'original_text' in metadata:
+            # Get the actual text content from the 'data' attribute
+            # This is where Upstash stores the indexed text
+            text_content = getattr(result, 'data', None)
+            
+            # Build a descriptive title from metadata
+            if 'name' in metadata:
+                # Professional profile or resume format
+                name = metadata.get('name', 'Information')
+                
+                # Build descriptive title based on metadata
+                if metadata.get('company'):
+                    title = f"{name} at {metadata.get('company')}"
+                elif metadata.get('skill'):
+                    level = metadata.get('level', metadata.get('proficiency', 'N/A'))
+                    title = f"{metadata.get('skill')} Skills (Level {level})"
+                else:
+                    title = name
+            elif 'original_text' in metadata:
                 # Food database format
-                text = metadata.get('original_text', '')
                 title = f"{metadata.get('type', 'Item')} from {metadata.get('region', 'Unknown')}"
+                text_content = metadata.get('original_text', text_content)
             elif 'content' in metadata:
-                # Digital twin format
-                text = metadata.get('content', '')
+                # Alternative format
                 title = metadata.get('title', 'Information')
-            elif 'name' in metadata:
-                # Named item format
-                text = metadata.get('description', metadata.get('enhanced_text', ''))
-                title = metadata.get('name', 'Item')
+                text_content = metadata.get('content', text_content)
             else:
-                # Fallback
-                text = str(metadata)
-                title = "Information"
+                # Fallback to ID
+                title = result.id
             
             score = result.score
             
             print(f"🔹 Found: {title} (Relevance: {score:.3f})")
-            if text:
-                top_docs.append(f"{title}: {text}")
+            
+            # Add to context if we have text
+            if text_content:
+                top_docs.append(f"{title}:\n{text_content}")
         
         if not top_docs:
             return "I found some information but couldn't extract details."
         
-        print(f"⚡ Generating response...\n")
+        print(f"⚡ Generating response with {len(top_docs)} sources...\n")
         
         # Step 3: Generate response with context
         context = "\n".join(top_docs)

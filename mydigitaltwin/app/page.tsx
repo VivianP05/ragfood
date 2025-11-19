@@ -73,10 +73,10 @@ export default function Home() {
   };
 
   const exampleQuestions = [
-    'What is Biryani?',
-    'Recommend a healthy breakfast',
-    'Tell me about Japanese cuisine',
-    'What are some vegetarian dishes?',
+    "What is Vivian's Tableau and Power BI experience?",
+    'Tell me about the Jung Talents project',
+    'What are the biggest achievements?',
+    'What Excel and Python skills does Vivian have?',
   ];
 
   return (
@@ -85,10 +85,10 @@ export default function Home() {
         {/* Header */}
         <header className="text-center py-6">
           <h1 className="text-4xl font-bold text-gray-800 dark:text-white mb-2">
-            🍽️ Food RAG Assistant
+            👩‍💼 Vivian Pham - AI Resume Assistant
           </h1>
           <p className="text-gray-600 dark:text-gray-300">
-            Ask me anything about food, recipes, and cuisines!
+            Ask me anything about my professional experience, skills, and career goals!
           </p>
         </header>
 
@@ -96,13 +96,13 @@ export default function Home() {
         <div className="flex-1 overflow-y-auto bg-white dark:bg-gray-800 rounded-lg shadow-lg p-4 mb-4">
           {messages.length === 0 ? (
             <div className="h-full flex flex-col items-center justify-center text-center">
-              <div className="text-6xl mb-4">👨‍🍳</div>
+              <div className="text-6xl mb-4">�</div>
               <h2 className="text-2xl font-semibold text-gray-700 dark:text-gray-200 mb-4">
-                Welcome to Food RAG!
+                Welcome to Vivian's Professional Assistant!
               </h2>
               <p className="text-gray-600 dark:text-gray-400 mb-6 max-w-md">
-                I can help you discover delicious dishes, learn about different cuisines,
-                and get recipe recommendations. Try asking:
+                I can answer questions about Vivian's professional experience, technical skills,
+                projects, achievements, and career goals. Try asking:
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-2 max-w-2xl">
                 {exampleQuestions.map((question, idx) => (
@@ -169,7 +169,7 @@ export default function Home() {
             type="text"
             value={input}
             onChange={(e) => setInput(e.target.value)}
-            placeholder="Ask about food, recipes, cuisines..."
+            placeholder="Ask about experience, skills, projects, achievements..."
             disabled={isLoading}
             className="flex-1 px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-800 dark:text-white disabled:opacity-50"
           />

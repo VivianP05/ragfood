@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { queryFoodRAG } from '../../../src/actions/foodRagActions';
+import { queryResumeRAG } from '../../../src/actions/resumeRagActions';
 
 export async function POST(request: NextRequest) {
   try {
@@ -12,8 +12,8 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Use the server action to query Food RAG
-    const result = await queryFoodRAG(question);
+    // Use the resume RAG server action
+    const result = await queryResumeRAG(question);
 
     if (!result.success) {
       return NextResponse.json(
@@ -25,6 +25,7 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({
       question: question,
       answer: result.answer,
+      sources: result.sources,
       metadata: result.metadata,
     });
 
@@ -43,10 +44,10 @@ export async function POST(request: NextRequest) {
 
 export async function GET() {
   return NextResponse.json({
-    message: 'RAG Query API',
+    message: 'Resume RAG Query API',
     usage: 'POST with { "question": "your question" }',
     example: {
-      question: 'What is Biryani?'
+      question: 'What is Vivian\'s Tableau experience?'
     }
   });
 }
